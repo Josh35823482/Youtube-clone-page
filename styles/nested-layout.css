@@ -1,0 +1,253 @@
+/* First layout Designs */
+
+.preview {
+  background-color: white;
+  width: 800px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.profile-info {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  width: 390px;
+}
+
+.image-box {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nura-photo-2 {
+  width: 120px;
+  border-radius: 100%;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.name {
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.name>a {
+  text-decoration: none;
+}
+
+.position {
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: bold;
+  color: grey;
+}
+
+.stats {
+  font-family: papyrus;
+  font-size: 15px;
+  font-weight: bold;
+  color: grey;
+}
+
+.follow-btn {
+  background-color: rgb(2, 158, 255);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 0 solid white;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.follow-btn:hover {
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+}
+
+.follow-btn:active {
+  opacity: 0.7;
+}
+
+.follow-container {
+  display: inline-block;
+  vertical-align: middle;
+  width: 120px;
+}
+
+/* Second layout Designs */
+
+.cover-for-separation {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.video-preview {
+  margin-top: 10px;
+  cursor: pointer;
+  width: 750px;
+}
+
+.vid-thumbnail {
+  display: inline-block;
+}
+
+.praying-sam {
+  width: 280px;
+}
+
+.praying-sam-3,
+.praying-sam-2 {
+  width: 280px;
+  height: 200px;
+}
+
+
+.video-contents {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.video-title {
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  width: 400px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.video-author {
+  color: grey;
+  font-family: papyrus;
+  font-weight: bold;
+}
+
+.video-stats {
+  color: grey;
+  font-family: papyrus;
+  font-weight: bold;
+  margin: 0;
+}
+
+.span-red15 {
+  color: red;
+}
+
+/* Third layout Designs */
+
+.chief-wrapper {
+  border: 1px solid;
+  width: 900px;
+}
+
+.first-preview {
+  border: 1px solid;
+  width: 260px;
+  margin: 5px;
+  display: inline-block;
+}
+
+/*.image-container {
+  vertical-align: top;
+}
+*/
+
+.jojo-photo {
+  width: 260px;
+}
+
+.jojo-photo-2 {
+  width: 260px;
+  height: 352px;
+  vertical-align: top;
+}
+
+.jojo-photo-3 {
+  width: 260px;
+  height: 350px;
+}
+
+
+.small-pics-container {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+
+.jojo-small-profile {
+  width: 25px;
+  border-radius: 100%;
+}
+
+.jojo-small-profile-2 {
+  width: 18px;
+  border-radius: 100%;
+}
+
+
+.profile-info {
+  width: 230px;
+  margin-left: 6px;
+}
+
+.profile-name {
+  font-family: cursive;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.profile-stats {
+  font-size: 15px;
+  color: grey;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.add-btn {
+  color: white;
+  background-color: rgb(2, 158, 255);
+  border: 0;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  width: 120px;
+}
+
+.add-btn:hover {
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+}
+
+.add-btn:active {
+  opacity: 0.7;
+}
+
+/* Notification Tryout */
+
+* {
+  padding: 0;
+  margin: o;
+}
+
+.message-wrapper {
+  margin-top: 20px;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  font-family: cursive;
+  display: ;
+}
