@@ -249,5 +249,65 @@ button {
   border: none;
   padding: 10px;
   font-family: cursive;
-  display: ;
+}
+
+/* g-mail Designs */
+.g-mail-container {
+  width: 500px;
+  /* margin-top: 20px; */
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px 5px 30px 10px;
+}
+
+.g-mail-title {
+  font-family: cursive;
+  color: grey;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.image-info-preview {
+  display: flex;
+}
+
+.gift-photo-2 {
+  width: 60px;
+  border-radius: 30px;
+}
+
+.g-mail-info {
+  margin-left: 10px;
+}
+
+
+.name-tag {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.extra-info {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.promo-offer {
+  margin-top: 5px;
+  color: grey;
+  font-size: 15px;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.time {
+  color: grey;
+  font-family: papyrus;
+  margin-left: -40px;
 }
