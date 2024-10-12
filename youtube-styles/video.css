@@ -1,7 +1,4 @@
 /* first image edit, first video-preview */
-body {
-  margin: 0;
-}
 
 .video-grid-wrapper {
   display: grid;

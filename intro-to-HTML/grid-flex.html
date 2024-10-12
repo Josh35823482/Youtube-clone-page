@@ -7,7 +7,10 @@
   <title>Grid and HTML</title>
 </head>
 
-<body>
+<body style="
+  height: 3000px;
+  padding-top: 60px;
+">
   <div style="
     display: grid;
     grid-template-columns: 100px 100px;
@@ -76,7 +79,7 @@
   </div>
 
   <div style="
-    margin-top: 40px;
+    margin: 40px 0 40px 0;
     display: flex;
     border: 1px solid black;
     height: 60px;
@@ -87,7 +90,29 @@
     <div style="background-color: lightblue; width: 100px;">100px</div>
   </div>
 
+<!-- Positions -->
+<div style="
+  color: green;
+  background-color: black;
+  position: fixed;
+  height: 60px;
+  top: 0;
+  left: 0; 
+  right: 0;
+">Header</div>
 
+<div style="
+height: 200px;
+width: 200px;
+background-color: lightblue;
+position: static;
+">div 1</div>
+
+<div style="
+height: 200px;
+width: 200px;
+background-color: lightpink;
+">div 1</div>
 
 </body>
 
