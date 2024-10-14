@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tryout</title>
+  <style>
+    .first-wrapper {
+      border: 1px solid black;
+      width: 800px;
+      height: 500px;
+      margin-bottom: 20px;
+    }
+
+    .grey-ground {
+      background-color: grey;
+      margin: 7px;
+      border: 1px solid black;
+      width: 760px;
+      height: 480px;
+      position: relative;
+    }
+
+    .pills-pic {
+      width: 755px;
+      height: 475px;
+    }
+
+    .off-price {
+      background-color: black;
+      color: white;
+
+      position: absolute;
+      top: 5px;
+      right: 0;
+
+      font-size: 18px;
+      padding: 10px 17px 10px 17px;
+      font-family: cursive;
+    }
+
+    .overlay {
+      background-color: rgba(245, 245, 245, 0.8);
+      border: 1px solid black;
+
+      position: relative;
+      bottom: 0;
+      top: 100px;
+      left: 0;
+      /* height: 190px; */
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="first-wrapper">
+    <div class="grey-ground">
+      <div class="image-box">
+        <img src="/images/pills-pic.jpg" class="pills-pic">
+      </div>
+      <div class="off-price">20% OFF</div>
+    </div>
+  </div>
+
+  <div class="first-wrapper">
+    <div class="overlay">
+      <div class="image-box">
+        <img src="/images/pills-pic.jpg" class="pills-pic">
+      </div>
+      <div class="off-price">20% OFF</div>
+    </div>
+
+    <div class="overlay"></div>
+  </div>
+
+</body>
+</html>
