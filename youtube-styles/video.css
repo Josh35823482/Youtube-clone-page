@@ -15,6 +15,7 @@
 
 .channel-photo {
   margin-bottom: 12px;
+  position: relative;
 }
 
  .channel-contents-grid { 
@@ -24,14 +25,18 @@
 
 
 .small-profile-photo-1 {
-  width: 40px;
-  border-radius: 50%;
+  width: 38px;
+  border-radius: 50px;
 }
 
 .small-profile-photo-4 {
-  width: 40px;
-  height: 55px;
-  border-radius: 50%;
+  width: 36px;
+  height: 38px;
+  border-radius: 50px;
+}
+
+.video-info {
+  margin-left: 10px;
 }
 
 
@@ -56,4 +61,16 @@
   font-size: 12px;
   margin-top: 0;
 }
-/* Second Layout Designs */
+
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
+  font-family: arial;
+  font-weight: 500;
+  padding: 6px;
+  border-radius: 4px;
+  font-size: 15px;
+}
